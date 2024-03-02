@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOS Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="display-container">
+        <div class="input-container">
+            <span id="input-string"></span>
+        </div>
+        <div class="result-container">
+            <span id="output-string"></span>
+        </div>
+    </div>
+    <div class="btn-container">
+        <button class="reg-btn" id="C-btn" value="c" onclick="clr()">C</button>
+        <button class="reg-btn" id="something-btn">+/-</button>
+        <button class="reg-btn" id="modulus-btn">%</button>
+        <button class="reg-btn" style="background-color: #FF9E0D;" id="div-btn" value="÷" onclick="dis('÷')" onkeydown="myFunction(event)">÷</button>
+        <button class="reg-btn" value="7" onclick="dis('7')" onkeydown="myFunction(event)">7</button>
+        <button class="reg-btn" value="8" onclick="dis('8')" onkeydown="myFunction(event)">8</button>
+        <button class="reg-btn" value="9" onclick="dis('9')" onkeydown="myFunction(event)">9</button>
+        <button class="reg-btn" style="background-color: #FF9E0D;" id="mul-btn" value="x" onclick="dis('x')" onkeydown="myFunction(event)">x</button>
+        <button class="reg-btn" value="4" onclick="dis('4')" onkeydown="myFunction(event)">4</button>
+        <button class="reg-btn" value="5" onclick="dis('5')" onkeydown="myFunction(event)">5</button>
+        <button class="reg-btn" value="6" onclick="dis('6')" onkeydown="myFunction(event)">6</button>
+        <button class="reg-btn" style="background-color: #FF9E0D;" id="sub-btn" value="-" onclick="dis('-')" onkeydown="myFunction(event)">-</button>
+        <button class="reg-btn" value="1" onclick="dis('1')" onkeydown="myFunction(event)">1</button>
+        <button class="reg-btn" value="2" onclick="dis('2')" onkeydown="myFunction(event)">2</button>
+        <button class="reg-btn" value="3" onclick="dis('3')" onkeydown="myFunction(event)">3</button>
+        <button class="reg-btn" style="background-color: #FF9E0D;" id="add-btn" value="+" onclick="dis('+')" onkeydown="myFunction(event)">+</button>
+        <button id="zro-btn" value="0" onclick="dis('0')" onkeydown="myFunction(event)">0</button>
+        <button class="reg-btn" value="." onclick="dis('.')"onkeydown="myFunction(event)">.</button>
+        <button class="reg-btn" style="background-color: #FF9E0D;" id="equals-btn" value="=" onclick="solve()">=</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

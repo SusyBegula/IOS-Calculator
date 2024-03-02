@@ -1,0 +1,92 @@
+body{
+    margin-top: 230px;
+    font-family: 'Roboto-Thin';
+    background-color: black;
+}
+
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('fonts/Roboto-Thin.ttf');
+}
+
+.display-container{
+    height: fit-content;
+    margin: auto;
+    width: 900px;
+}
+
+.input-container{
+    text-align: right;
+    margin-right: 25px;
+}
+
+.result-container{
+    height: 350px;
+    text-align: right;
+}
+
+
+#input-string{
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto-Thin';
+}
+
+#output-string{
+    color: white;
+    font-size: 250px;
+    font-family: 'Roboto-Thin';
+}
+
+button{
+    border: 0px solid;
+    font-size: 60px;
+}
+
+button:hover{
+    border: 0px solid;
+    font-size: 60px;
+    border: 1px solid rgb(102, 102, 102);
+    box-shadow: 1px 1px 20px;
+}
+
+.btn-container{
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+}
+
+.reg-btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin: 15px;
+    background-color: #323332;
+    color: white;
+}
+
+#C-btn{
+    background-color: #A5A4A4;
+    color: black;
+}
+
+#something-btn{
+    background-color: #A5A4A4;
+    color: black;
+}
+
+#modulus-btn{
+    background-color: #A5A4A4;
+    color: black;
+}
+
+#zro-btn{
+    height: 200px;
+    width: 430px;
+    border-radius: 100px;
+    margin: 15px;
+    color: white;
+    background-color: #323332;
+}
+
